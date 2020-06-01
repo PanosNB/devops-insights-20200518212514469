@@ -23,7 +23,7 @@ module.exports = {
     
         await demodoi.waitForElementVisible('@table');
 
-        cityName.expect.element('@firstApp').text.to.equal('Leander');
+        cityName.expect.element('@firstApp').text.to.equal('Leander_FAIL_TEST');
     },
 
     'Navigate to the DemoDOI - invalid zip': async (browser) => {
